@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <text x="100" y="240" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="72" fill="#ffffff">Tom Polakow</text>
+  <text x="100" y="300" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="32" fill="#38bdf8">Built by Grace. Driven by Data.</text>
+  <text x="100" y="370" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="24" fill="#94a3b8">Clinical Product Manager · AI Builder · Writer</text>
+  <rect x="100" y="420" width="60" height="4" rx="2" fill="#38bdf8" opacity="0.5"/>
+</svg>
