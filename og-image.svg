@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#1e293b"/>
-      <stop offset="100%" stop-color="#0f172a"/>
+    <radialGradient id="glow" cx="60%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="65%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
   </defs>
+  <rect width="1200" height="630" fill="#0a0f1c"/>
   <rect width="1200" height="630" fill="url(#glow)"/>
-  <text x="100" y="240" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="72" fill="#ffffff">Tom Polakow</text>
-  <text x="100" y="300" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="32" fill="#38bdf8">Built by Grace. Driven by Data.</text>
-  <text x="100" y="370" font-family="Inter, system-ui, sans-serif" font-weight="400" font-size="24" fill="#94a3b8">Clinical Product Manager · AI Builder · Writer</text>
-  <rect x="100" y="420" width="60" height="4" rx="2" fill="#38bdf8" opacity="0.5"/>
+  <text x="90" y="200" font-family="Menlo, monospace" font-size="26" letter-spacing="2" fill="#38bdf8">Built by Grace. Driven by Data.</text>
+  <text x="84" y="330" font-family="Helvetica Neue, Arial, sans-serif" font-size="110" font-weight="800" letter-spacing="-4" fill="#f4f7fb">Tom <tspan fill="#38bdf8">Polakow</tspan><tspan fill="#38bdf8">.</tspan></text>
+  <text x="90" y="410" font-family="Helvetica Neue, Arial, sans-serif" font-size="28" font-weight="600" letter-spacing="4" fill="#8b99ad">CLINICAL PRODUCT MANAGER · AI BUILDER · WRITER</text>
+  <line x1="90" y1="470" x2="1110" y2="470" stroke="#334155" stroke-width="1"/>
+  <text x="90" y="530" font-family="Helvetica Neue, Arial, sans-serif" font-size="26" fill="#8b99ad">Healthcare × AI — building things that are genuinely good.</text>
+  <text x="1110" y="530" text-anchor="end" font-family="Menlo, monospace" font-size="24" fill="#5b6b80">tompolakow.com</text>
 </svg>
